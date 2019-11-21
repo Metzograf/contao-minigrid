@@ -1,0 +1,22 @@
+<?php // $this->showTemplateVars(); ?> 
+
+<?php if($this->minirow) echo "<hr/>"; ?>
+
+<!-- indexer::stop -->
+<div class="<?= $this->class ?> block <?= $this->minigrid ?>"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+
+  <?php $this->block('headline'); ?>
+    <?php if ($this->headline): ?>
+      <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+    <?php endif; ?>
+  <?php $this->endblock(); ?>
+
+  <?php $this->block('content'); ?>
+  <?php $this->endblock(); ?>
+
+</div>
+<!-- indexer::continue -->
+
+<?php if (TL_MODE == 'BE'): ?>
+	<?php if($this->minigrid): ?> <breite class="unsearchable"><?= $this->minigrid ?></breite> <?php endif; ?>
+<?php endif; ?>

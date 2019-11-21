@@ -1,0 +1,35 @@
+{
+	"name": "metzograf/minigrid",
+	"description": "Contao 4+ Mini Grid",
+	"keywords": ["contao", "minigrid"],
+	"type": "contao-bundle",
+	"license": "LGPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Florian Metzner",
+			"homepage": "https:metzograf.de",
+			"email": "metzner@metzograf.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "metzner@metzograf.de",
+		"issues": "https://github.com/metzograf/contao-mingrid/issues",
+		"source": "https://github.com/metzograf/contao-mingrid",
+		"forum": "https://community.contao.org/de"
+	},
+	"require": {
+		"contao/core-bundle": "~4.4",
+	},
+	"require-dev": {
+		 "contao/manager-plugin": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"MinigridBundle\\": "src/"
+		}
+	},
+	"extra": {
+		"contao-manager-plugin": "MinigridBundle\\ContaoManager\\Plugin"
+	}
+}
