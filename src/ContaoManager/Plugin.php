@@ -3,7 +3,7 @@
 /*
  * This file is part of the Minigrid Bundle.
  *
- * (c) Fritz Michael Gschwantner <https://github.com/fritzmg>
+ * (c) Florian Metzner <https://github.com/metzograf>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
