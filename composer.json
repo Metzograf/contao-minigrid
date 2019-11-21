@@ -1,5 +1,5 @@
 {
-	"name": "metzograf/minigrid",
+	"name": "metzograf/contao-minigrid",
 	"description": "Contao 4+ Mini Grid",
 	"keywords": ["contao", "minigrid"],
 	"type": "contao-bundle",
@@ -14,12 +14,12 @@
 	],
 	"support": {
 		"email": "metzner@metzograf.de",
-		"issues": "https://github.com/metzograf/contao-mingrid/issues",
-		"source": "https://github.com/metzograf/contao-mingrid",
+		"issues": "https://github.com/metzograf/contao-minigrid/issues",
+		"source": "https://github.com/metzograf/contao-minigrid",
 		"forum": "https://community.contao.org/de"
 	},
 	"require": {
-		"contao/core-bundle": "~4.4",
+		"contao/core-bundle": "~4.4"
 	},
 	"require-dev": {
 		 "contao/manager-plugin": "^2.0"
