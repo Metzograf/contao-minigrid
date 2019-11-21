@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace ContaoMinigridBundle;
+namespace MinigridBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Configures the Contao Minigrid Bundle.
  */
-class ContaoMinigridBundle extends Bundle
+class MinigridBundle extends Bundle
 {
 }
