@@ -1,5 +1,5 @@
 {
-	"name": "Minigrid",
+	"name": "metzograf/contao-minigrid",
 	"description": "Very simple and minimal Contao Grid",
 	"keywords": ["contao", "minigrid"],
 	"type": "contao-bundle",
