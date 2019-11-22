@@ -1,15 +1,15 @@
 {
 	"name": "metzograf/contao-minigrid",
-	"description": "Contao 4+ Mini Grid",
+	"description": "Very simple and minimal Contao Grid",
 	"keywords": ["contao", "minigrid"],
 	"type": "contao-bundle",
 	"license": "LGPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Florian Metzner",
-			"homepage": "https:metzograf.de",
+			"homepage": "https://metzograf.de",
 			"email": "metzner@metzograf.de",
-			"role": "Developer"
+			"role": "developer"
 		}
 	],
 	"support": {
