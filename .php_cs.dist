@@ -1,0 +1,7 @@
+$header = <<<EOF
+This file is part of Contao Minigrid Bundle.
+
+(c) Florian Metzner | Metzograf
+
+@license LGPL-3.0-or-later
+EOF;
