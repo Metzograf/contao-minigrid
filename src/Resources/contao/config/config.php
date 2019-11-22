@@ -8,4 +8,4 @@ $GLOBALS['TL_CTE']['blocks'] = array(
 	'blockStop'	=> 'ContentBlockStop'
 );
 
-$GLOBALS['TL_CSS'][] = '/assets/mingrid.css';
+$GLOBALS['TL_CSS'][] = 'bundles/contao-minigrid/mingrid.css';
