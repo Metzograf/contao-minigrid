@@ -7,3 +7,5 @@ $GLOBALS['TL_CTE']['blocks'] = array(
 	'blockStart' => 'ContentBlockStart',
 	'blockStop'	=> 'ContentBlockStop'
 );
+
+$GLOBALS['TL_CSS'][] = 'bundles/contaoswiper/swiper.min.css';
