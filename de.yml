@@ -1,0 +1,14 @@
+de:
+    title: Minigrid
+    description: >
+        Mit diesem Grid kann Inhaltselementen eine Breite zugewiesen werden.
+
+    keywords:
+      - Grid
+      - Minigrid
+
+    support:
+        issues: https://github.com/metzograf/contao-minigrid/issues
+        docs: https://github.com/metzograf/contao-minigrid
+    suggest:
+        vendor/package: Dieses Package ermöglicht ein Grid
