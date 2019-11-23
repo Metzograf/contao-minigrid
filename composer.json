@@ -1,5 +1,5 @@
 {
-	"name": "metzograf/contao-minigrid",
+	"name": "metzograf/contao-minigrid-bundle",
 	"description": "Very simple and minimal Contao Grid",
 	"keywords": ["contao", "minigrid"],
 	"type": "contao-bundle",
@@ -14,8 +14,8 @@
 	],
 	"support": {
 		"email": "metzner@metzograf.de",
-		"issues": "https://github.com/metzograf/contao-minigrid/issues",
-		"source": "https://github.com/metzograf/contao-minigrid",
+		"issues": "https://github.com/metzograf/contao-minigrid-bundle/issues",
+		"source": "https://github.com/metzograf/contao-minigrid-bundle",
 		"forum": "https://community.contao.org/de"
 	},
 	"require": {
