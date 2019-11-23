@@ -13,7 +13,7 @@ if(VERSION <= 4.5) {
         // Pfad ggf. anpassen
         // Alle Dateien in /src/Ressources/public werden unter /web/bundles/bundle-name
         // als Symlink veröffentlicht nach composer install/update
-        $GLOBALS['TL_CSS'][] = 'bundles/contao-minigrid/mingrid.css';
+        $GLOBALS['TL_CSS'][] = 'bundles/contaominigrid/mingrid.css';
     }
  
 }
