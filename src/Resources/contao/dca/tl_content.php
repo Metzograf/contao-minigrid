@@ -21,8 +21,7 @@ $GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('cssID;','cssID;{mini
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['minirow'] = array 
 (
-	'label'                   // => array('Element in Nächste Zeile','Dieses Element in einer neuen Zeile darstellen.'),
-							  =>  &$GLOBALS['TL_LANG']['CTE']['minirow'],
+	'label'    				  =>  &$GLOBALS['TL_LANG']['CTE']['minirow'],
 	'default'                 => 0,
 	'exclude'                 => true,
 	'inputType'               => 'checkbox',
@@ -32,13 +31,14 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['minirow'] = array
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['minigrid'] = array 
 ( 
-    'label' // => array('Breite des Elements','Die Breite des Elements auswählen.'), 
-    =>  &$GLOBALS['TL_LANG']['CTE']['minigrid'],
+    'label'  =>  &$GLOBALS['TL_LANG']['CTE']['minigrid'],
     'exclude' => true, 
     'inputType' => 'select',
     'options' => array(	
 	    				'w100' => ' – ',
     					'w25' => '25 %',
+    					'w25t50' => '25 % ⟶ 50 %',
+    					'w25t100' => '25 % ⟶ 100 %',
     					'w33' => '33 %',
     					'w50' => '50 %',
     					'w66' => '66 %',
