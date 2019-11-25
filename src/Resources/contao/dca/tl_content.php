@@ -33,11 +33,11 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['minigrid'] = array
 ( 
     'label'  =>  &$GLOBALS['TL_LANG']['CTE']['minigrid'],
     'exclude' => true, 
-    'inputType' => 'select',
+    'inputType' => 'radio',
     'options' => array(	
 	    				'w100' => ' – ',
     					'w25' => '25 %',
-    					'w25t50' => '25 % ⟶ 50 %',
+    					'w25t50' => '<img width="50px" src="http://placehold.it/200x200/0bf/fff&text=30%">25 % ⟶ 50 %',
     					'w25t100' => '25 % ⟶ 100 %',
     					'w33' => '33 %',
     					'w33t50' => '33 % ⟶ 50 %',
@@ -49,6 +49,5 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['minigrid'] = array
     					'w75' => '75 %',
     					'w75t100' => '75 % ⟶ 100 %',
     ),
-    'eval' => array('tl_class' => 'w50 clr'), 
+    'eval' => array('tl_class' => 'w100 clr'), 
     'sql' => "varchar(255) NOT NULL default ''" 
-);
