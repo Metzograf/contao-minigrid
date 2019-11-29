@@ -46,25 +46,3 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['minigrid'] = array
     'eval' => array('tl_class' => 'w50 clr'), 
     'sql' => "varchar(255) NOT NULL default ''" 
 );
-
-class MinigridBundle extends Module
-	{
-		// templatedatei definieren
-		protected $strTemplate = 'form_wrapper';
-		
-		public function generate()
-		{
-			// backend ausgabe
-		}
-		
-		protected function compile()
-		{  // frontend ausgabe
-			$objData = $this->Database->prepare("SELECT * FROM tl_content")->execute();
-			while ($objData->next())
-		{
-			// übergabe der Daten an das Template
-			$this->Template->minigrid = $objData->minigrid;
-			$this->Template->minirow = $objData->minirow;
-		}
-	}
-} 
