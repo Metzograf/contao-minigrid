@@ -37,11 +37,11 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['minigrid'] = array
     'inputType' => 'select',
     'options' => array(	
 	    				'w100' => ' – ',
-    					'w25' => '25 %',
-    					'w33' => '33 %',
-    					'w50' => '50 %',
-    					'w66' => '66 %',
-    					'w75' => '75 %',
+    					'w25' => '25 % → 50%',
+    					'w33' => '33 % → 100%',
+    					'w50' => '50 % → 100%',
+    					'w66' => '66 % → 100%',
+    					'w75' => '75 % → 100%',
     ),
     'eval' => array('tl_class' => 'w50 clr'), 
     'sql' => "varchar(255) NOT NULL default ''" 
