@@ -8,4 +8,4 @@ $GLOBALS['TL_CTE']['blocks'] = array(
 	'blockStop'	=> 'ContentBlockStop'
 );
 
-$GLOBALS['TL_CSS'][] = 'bundles/mingrid/minigrid.css';
+$GLOBALS['TL_CSS'][] = 'bundles/minigrid/minigrid.css';
