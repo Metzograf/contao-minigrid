@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+.block {
+	width: 100%;
+}
+
 .w25 {
 	width: calc(25% - 40px);
 }
