@@ -1,63 +1,66 @@
 .mod_article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: repeat(12, 1fr);
 }
 
+
 .block {
-	width: 100%;
+	grid-column: span 12;
+	grid-column-gap: 20px;
 }
 
 .w25 {
-	width: calc(25% - 40px);
+	grid-column: span 3;
 }
 
 @media (max-width: 768px) {
 	.w25 {
-		width: calc(100% - 40px);
+		grid-column: span 6;
 	}
 }
 
 .w33 {
-	width: calc(33% - 40px);
+	grid-column: span 4;
 }
 
 @media (max-width: 768px) {
 	.w22 {
-		width: calc(50% - 40px);
+		grid-column: span 12;
 	}
 }
 
 .w50 {
-	width: calc(50% - 40px);
+	grid-column: span 6;
 }
 
 @media (max-width: 768px) {
 	.w50 {
-		width: calc(100% - 40px);
+		grid-column: span 12;
 	}
 }
 
 .w66 {
-	width: calc(66% - 40px);
+	grid-column: span 8;
 }
 
 @media (max-width: 768px) {
 	.w66 {
-		width: calc(100% - 40px);
+		grid-column: span 12;
 	}
 }
 
 .w75 {
-	width: calc(75% - 40px);
+	grid-column: span 9;
 }
 
 @media (max-width: 768px) {
 	.w75 {
-		width: calc(100% - 40px);
+		grid-column: span 12;
 	}
 }
 
 .w100 {
-	width: 100%;
+
+	grid-column: span 12;
 }
