@@ -12,3 +12,5 @@ $GLOBALS['TL_LANG']['CTE']['minirow'] = array('Element in Nächste Zeile','Diese
 $GLOBALS['TL_LANG']['CTE']['minigrid'] = array('Breite des Elements','Die Breite des Elements auswählen.');
 
 $GLOBALS['TL_LANG']['tl_content']['minigrid_legend'] = 'Breite des Elements'; 
+
+$GLOBALS['TL_LANG']['CTE']['fullwidth'] = array('Ganze Breite','Artikel über die gesamte Breite anzeigen (z.B. Slider).');

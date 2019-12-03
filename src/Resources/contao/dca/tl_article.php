@@ -19,7 +19,7 @@ $GLOBALS['TL_DCA']['tl_article']['palettes']['default'] = str_replace
 // configurate field
 $GLOBALS['TL_DCA']['tl_article']['fields']['fullwidth'] = array 
 ( 
-    'label'                   => array('Ganze Breite','Artikel über die gesamte Breite anzeigen (z.B. Slider & Banner).'),
+	'label'    				  =>  &$GLOBALS['TL_LANG']['CTE']['fullwidth'],
     'default'                 => 0,
 	'exclude'                 => true,
 	'inputType'               => 'checkbox',
