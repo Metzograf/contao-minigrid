@@ -4,11 +4,6 @@
     grid-template-columns: repeat(12, 1fr);
 }
 
-@media (max-width: 768px) {
-	.mod_article {
-		max-width: 95vw;
-	}
-}
 
 .block {
 	grid-column: span 12;
