@@ -5,8 +5,7 @@
     grid-column-gap: 20px;
 }
 
-
-.block {
+.mod_article .block {
 	grid-column: span 12;
 }
 
