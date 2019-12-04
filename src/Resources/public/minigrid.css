@@ -2,12 +2,12 @@
     display: grid;
     grid-column: span 12;
     grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
 }
 
 
 .block {
 	grid-column: span 12;
-	grid-column-gap: 20px;
 }
 
 .w25 {
