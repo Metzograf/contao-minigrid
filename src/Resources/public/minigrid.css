@@ -1,6 +1,5 @@
 .mod_article {
     display: grid;
-    grid-column: span 12;
     grid-template-columns: repeat(12, 1fr);
 }
 
