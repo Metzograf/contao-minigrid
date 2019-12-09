@@ -21,7 +21,7 @@
 
 <?php else: ?>
 
-  <div class="<?= $this->class ?> block" id="<?= $this->alias ?>" <?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+  <div class="<?= $this->class ?> block <? if($this->fullwidth): ?>fullwidth<? endif; ?>" id="<?= $this->alias ?>" <?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
     <?php if ($this->printable): ?>
       <?php $this->block('syndication'); ?>
         <!-- indexer::stop -->
