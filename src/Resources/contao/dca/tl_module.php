@@ -11,14 +11,15 @@
 // Add fullwidth field
 $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] = str_replace 
 ( 
-    'perPage;', 
-    'perPage;{minigrid_legend},NewsMinigrid;', 
+    'perPage', 
+    'perPage;{minigrid_legend},NewsMinigrid', 
     $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] 
 ); 
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['NewsMinigrid'] = array 
 ( 
-    'label' =>  &$GLOBALS['TL_LANG']['CTE']['NewsMinigrid'],
+    'label' =>  array('Elemente in einer Reihe','Anzahl der Elemente die in einer Reihe dargestellt werden sollen (Mobile wird es angepasst).'),
+    // &$GLOBALS['TL_LANG']['CTE']['NewsMinigrid'],
     'exclude' => true, 
     'inputType' => 'select',
     'options' => array(	
