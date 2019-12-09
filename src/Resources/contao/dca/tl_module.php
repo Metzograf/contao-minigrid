@@ -12,11 +12,11 @@
 $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] = str_replace 
 ( 
     'perPage', 
-    'perPage;{minigrid_legend},NewsMinigrid', 
+    'perPage;{minigrid_legend},minigrid_news', 
     $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] 
 ); 
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['NewsMinigrid'] = array 
+$GLOBALS['TL_DCA']['tl_module']['fields']['minigrid_news'] = array 
 ( 
     'label' =>  array('Elemente in einer Reihe','Anzahl der Elemente die in einer Reihe dargestellt werden sollen (Mobile wird es angepasst).'),
     // &$GLOBALS['TL_LANG']['CTE']['NewsMinigrid'],
