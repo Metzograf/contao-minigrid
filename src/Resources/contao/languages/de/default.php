@@ -14,3 +14,5 @@ $GLOBALS['TL_LANG']['CTE']['minigrid'] = array('Breite des Elements','Die Breite
 $GLOBALS['TL_LANG']['tl_content']['minigrid_legend'] = 'Breite des Elements'; 
 
 $GLOBALS['TL_LANG']['CTE']['fullwidth'] = array('Ganze Breite','Artikel über die gesamte Breite anzeigen (z.B. Slider).');
+
+$GLOBALS['TL_LANG']['CTE']['NewsMinigrid'] = array('Elemente in einer Reihe','Anzahl der Elemente die in einer Reihe dargestellt werden sollen (Mobile wird es angepasst).');
