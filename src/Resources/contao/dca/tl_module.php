@@ -12,7 +12,7 @@
 $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] = str_replace 
 ( 
     'perPage', 
-    'perPage;{minigrid_legend},minigrid_news', 
+    'perPage,minigrid_news', 
     $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] 
 ); 
 
