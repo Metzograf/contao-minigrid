@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
  
-// Add fullwidth field
+// Add width field
 $GLOBALS['TL_DCA']['tl_module']['palettes']['newslist'] = str_replace 
 ( 
     'perPage', 
@@ -32,3 +32,26 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['minigrid_news'] = array
     'sql' => "varchar(255) NOT NULL default ''" 
 );
 
+// Add width field
+$GLOBALS['TL_DCA']['tl_module']['palettes']['eventlist'] = str_replace 
+( 
+    'perPage', 
+    'perPage,minigrid_events', 
+    $GLOBALS['TL_DCA']['tl_module']['palettes']['eventlist'] 
+); 
+
+$GLOBALS['TL_DCA']['tl_module']['fields']['minigrid_events'] = array 
+( 
+    'label' =>  array('Elemente in einer Reihe','Anzahl der Elemente die in einer Reihe dargestellt werden sollen (Mobile wird es angepasst).'),
+    // &$GLOBALS['TL_LANG']['CTE']['NewsMinigrid'],
+    'exclude' => true, 
+    'inputType' => 'select',
+    'options' => array(	
+	    				'w100' => '1',
+	    				'w50' => '2',
+	    				'w33' => '3',
+    					'w25' => '4',			
+    ),
+    'eval' => array('tl_class' => 'w50 clr'), 
+    'sql' => "varchar(255) NOT NULL default ''" 
+);
