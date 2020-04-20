@@ -16,6 +16,9 @@ $GLOBALS['TL_DCA']['tl_content']['palettes']['blockStop'] = '{type_legend},type;
 
 $GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('cssID;','cssID;{minigrid_legend},minirow,minigrid;',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
 
+// DMA
+$GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('cssID,space;','cssID,space;{minigrid_legend},minirow,minigrid;',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
+
 /* Gallery */
 $GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('useHomeDir;','useHomeDir;{minigrid_legend},minirow,minigrid;',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
 
