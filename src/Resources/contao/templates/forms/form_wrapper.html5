@@ -3,8 +3,8 @@
 	$this->import('Database');  
 	$minigrid = $this->Database->prepare("SELECT minigrid, minirow FROM tl_content WHERE form = '$this->id'")->execute();
  ?>
- 
-<div class="<?= $this->class ?> block <?= $minigrid->minigrid; ?> <?= $minigrid->minirow; ?>"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+<?php if($this->minirow) echo "<hr/>"; ?>
+<div class="<?= $this->class ?> block <?= $minigrid->minigrid; ?>"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
 
   <?php if ($this->headline): ?>
     <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
