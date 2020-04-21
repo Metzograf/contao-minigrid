@@ -3,7 +3,9 @@
 	$this->import('Database');  
 	$minigrid = $this->Database->prepare("SELECT minigrid, minirow FROM tl_content WHERE form = '$this->id'")->execute();
  ?>
-<?php if($this->minirow) echo "<hr/>"; ?>
+
+<?php if($minigrid->minirow) echo "<hr/>"; ?>
+
 <div class="<?= $this->class ?> block <?= $minigrid->minigrid; ?>"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
 
   <?php if ($this->headline): ?>
