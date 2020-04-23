@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 768px) {
-	.w22 {
+	.w33 {
 		-ms-grid-column-span: 12;
 		grid-column: span 12;
 	}
