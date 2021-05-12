@@ -23,7 +23,7 @@ $GLOBALS['TL_DCA']['tl_content']['palettes']['dlh_googlemaps'] = str_replace('cs
 $GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('cssID,space;','cssID,space;{minigrid_legend},minirow,minigrid;',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
 
 // Support for contao-customcontentelements
-$GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('invisible,start,stop','{minigrid_legend},minirow,minigrid;invisible,start,stop',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
+$GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace(',invisible',';{minigrid_legend},minirow,minigrid;invisible',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
 
 /* Gallery */
 $GLOBALS['TL_DCA']['tl_content']['palettes'] = str_replace('useHomeDir;','useHomeDir;{minigrid_legend},minirow,minigrid;',$GLOBALS['TL_DCA']['tl_content']['palettes']); 
