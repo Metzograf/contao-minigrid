@@ -72,15 +72,13 @@
 }
 
 .w100 {
-
 	-ms-grid-column-span: 12;
-
 	grid-column: span 12;
 }
 
 hr {
     display: block;
-    -ms-grid-column-span: 6;
-    grid-column: span 6;
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
     opacity: 0;
 }
